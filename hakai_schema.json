@@ -3,6 +3,8 @@
     "dataset_type": "dataset",
     "about": "An initial implementation of the hakai CKAN dataset schema",
     "about_url": "http://github.com/ckan/ckanext-scheming",
+    "form_languages": ["en", "fr"],
+    "alternate_languages": {"fr": ["en"]},
     "dataset_fields": [
         {
           "field_name": "title_translated",
@@ -62,7 +64,6 @@
           "field_name": "resource-type",
           "label": "Scope",
           "preset": "select",
-          "display_snippet": "select.html",
           "required": true,
           "choices": [
             {
@@ -175,7 +176,6 @@
           "field_name": "progress",
           "label": "Status",
           "preset": "select",
-          "display_snippet": "select.html",
           "required": true,
           "choices": [
             {
@@ -416,9 +416,6 @@
           "field_name": "frequency-of-update",
           "label": "Maintenance and update frequency",
           "preset": "select",
-          "display_snippet": "select.html",
-          "display_snippet": null,
-          "required": true,
           "choices": [
             {
               "value": "continual",
@@ -503,7 +500,6 @@
               "field_name": "role",
               "label": "Role",
               "preset": "select",
-              "display_snippet": "select.html",
               "required": true,
               "choices": [
                 {
@@ -631,7 +627,6 @@
               "field_name": "role",
               "label": "Role",
               "preset": "select",
-              "display_snippet": "select.html",
               "required": true,
               "choices": [
                 {
@@ -791,7 +786,6 @@
          "field_name": "defaultLocale",
          "label": "Default Locale",
          "preset": "select",
-         "display_snippet": "select.html",
          "choices": [
            {
              "value": "EN",
