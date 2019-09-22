@@ -236,7 +236,7 @@
           ]
         },
         {
-            "field_name": "topicCategory",
+            "field_name": "topic-category",
             "label": "Topic Category",
             "preset": "select",
             "required": true,
