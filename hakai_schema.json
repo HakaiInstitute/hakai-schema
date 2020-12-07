@@ -624,13 +624,13 @@
               "field_name": "individual-name",
               "label": "Name",
               "form_placeholder": "Joe Bloggs",
-              "required": true,
+              "require_one": true,
               "hint": "name of orginization or individual"
             },
             {
               "iso_path": ["CI_Party","CI_Contact","affiliation","CharacterString"],
               "field_name": "organisation-name",
-              "label": "Affiliation",
+              "require_one": true,
               "preset": "dataset_organization"
             },
             {
