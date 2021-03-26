@@ -384,7 +384,7 @@
         {
             "field_name": "topic-category",
             "label": "Topic Category",
-            "preset": "select",
+            "preset": "multiple_select",
             "required": true,
             "choices": [{
                     "value": "farming",
@@ -407,24 +407,12 @@
                     "label": "economy"
                 },
                 {
-                    "value": "required",
-                    "label": "Required"
-                },
-                {
                     "value": "elevation",
                     "label": "elevation"
                 },
                 {
                     "value": "environment",
                     "label": "environment"
-                },
-                {
-                    "value": "pending",
-                    "label": "Pending"
-                },
-                {
-                    "value": "retired",
-                    "label": "Retired"
                 },
                 {
                     "value": "geoscientificInformation",
