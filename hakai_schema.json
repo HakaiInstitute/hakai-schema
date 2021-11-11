@@ -289,8 +289,28 @@
           "category": "Other",
           "value": "other",
           "label": "Other",
-          "icon": "none.svg"
+          "icon": "eov_other.svg"
+        },
+        {
+          "category": "Other",
+          "value": "marineDebris",
+          "label": "Marine debris",
+          "icon": "other.svg",
+          "emerging": true
+        },
+        {
+          "category": "Other",
+          "value": "oceanColor",
+          "label": "Ocean color",
+          "icon": "ocean-colour.svg"
+        },
+        {
+          "category": "Other",
+          "value": "oceanSound",
+          "label": "Ocean sound",
+          "icon": "ocean-sound.svg"
         }
+
       ]
     },
     {
@@ -685,7 +705,6 @@
     {
       "field_name": "metadata-reference-date",
       "label": "Metadata Dates",
-      "preset": "composite_repeating",
       "display_snippet": null,
       "help_text": "Dates related to the metadata record",
       "form_blanks": 1,
@@ -938,8 +957,8 @@
         {
           "field_name": "organisation-name",
           "label": "Affiliation",
-          "require_one": true,
-          "preset": "dataset_organization"
+          "form_snippet": "organization.html",
+          "require_one": true
         },
         {
           "field_name": "contact-info_online-resource",
@@ -1208,7 +1227,6 @@
       "simple_subfields": [{
           "field_name": "min",
           "label": "Min",
-          "preset": "number",
           "form_attrs": {
             "pattern": "[0-9.]+"
           }
@@ -1216,7 +1234,6 @@
         {
           "field_name": "max",
           "label": "Max",
-          "preset": "number",
           "form_attrs": {
             "pattern": "[0-9.]+"
           }
@@ -1273,6 +1290,7 @@
       "label": "XML Metadata File Location",
       "form_placeholder": "http://waf/location/xml_metadata_file.xml",
       "display_property": "foaf:homepage",
+      "display_snippet":"link.html",
       "required": true,
       "display_snippet": null,
       "help_text": "(Recomended) URL for the external xml metadata file which represents the full cioos metadata reocrd. This is often the same file used to create this record if the dataset is generated using the spatial harvester. If using the api to create datasets this field will not be set automaticly."
