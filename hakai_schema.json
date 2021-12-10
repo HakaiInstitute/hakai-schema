@@ -971,8 +971,7 @@
         {
           "field_name": "role",
           "label": "Role",
-          "preset": "select",
-          "display_snippet": "select.html",
+          "preset": "multiple_select",
           "required": true,
           "choices": [{
               "value": "author",
@@ -1090,8 +1089,7 @@
         {
           "field_name": "role",
           "label": "Role",
-          "preset": "select",
-          "display_snippet": "select.html",
+          "preset": "multiple_select",
           "required": true,
           "choices": [{
               "value": "author",
