@@ -1175,7 +1175,6 @@
         }
       ]
     },
-    ,
     {
      "field_name": "distributor",
      "label": "Distributor",
@@ -1364,8 +1363,6 @@
         }
       ]
     },
-
-
     {
       "field_name": "metadata-language",
       "label": "Default Locale",
