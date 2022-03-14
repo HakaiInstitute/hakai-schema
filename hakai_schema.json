@@ -179,49 +179,43 @@
           "category": "Physical",
           "value": "seaSurfaceSalinity",
           "label": "Sea Surface Salinity",
-          "icon": "salinity.svg"
+          "icon": "surface-salinity.svg"
         },
         {
           "category": "Physical",
           "value": "seaSurfaceTemperature",
           "label": "Sea Surface Temperature",
-          "icon": "temperature.svg"
+          "icon": "surface-temperature.svg"
         },
         {
           "category": "Physical",
           "value": "subSurfaceCurrents",
           "label": "Sub Surface Currents",
-          "icon": "currents.svg"
+          "icon": "subsurface-currents.svg"
         },
         {
           "category": "Physical",
           "value": "subSurfaceSalinity",
           "label": "Sub Surface Salinity",
-          "icon": "salinity.svg"
+          "icon": "subsurface-salinity.svg"
         },
         {
           "category": "Physical",
           "value": "subSurfaceTemperature",
           "label": "Sub Surface Temperature",
-          "icon": "temperature.svg"
+          "icon": "subsurface-temperature.svg"
         },
         {
           "category": "Physical",
           "value": "surfaceCurrents",
           "label": "Surface Currents",
-          "icon": "currents.svg"
+          "icon": "surface-currents.svg"
         },
         {
           "category": "Physical",
           "value": "oceanSurfaceStress",
           "label": "Ocean surface stress",
           "icon": "sea-surface-stress.svg"
-        },
-        {
-          "category": "Physical",
-          "value": "subsurfaceCurrents",
-          "label": "Subsurface currents",
-          "icon": "currents.svg"
         },
         {
           "category": "Physical",
@@ -292,20 +286,20 @@
           "icon": "eov_other.svg"
         },
         {
-          "category": "Other",
+          "category": "Cross-disciplinary",
           "value": "marineDebris",
           "label": "Marine debris",
-          "icon": "eov_other.svg",
+          "icon": "marine-debris.svg",
           "emerging": true
         },
         {
-          "category": "Other",
+          "category": "Cross-disciplinary",
           "value": "oceanColor",
           "label": "Ocean color",
           "icon": "ocean-colour.svg"
         },
         {
-          "category": "Other",
+          "category": "Cross-disciplinary",
           "value": "oceanSound",
           "label": "Ocean sound",
           "icon": "ocean-sound.svg"
